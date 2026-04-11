@@ -1,0 +1,644 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    text-decoration: none;
+    list-style: none;
+}
+body{
+    background: black;
+}
+main{
+    width: 1170px;
+    margin: auto;
+
+}
+.headerTop{
+    width: 100%;
+    background-color: #343130;
+    padding: 10px 30px;
+    display: flex;
+    justify-content: space-between;
+  
+
+}
+.headerTop a{
+    color: white;
+}
+.webLink{
+    display: flex;
+    gap: 10px;
+}
+.email{
+    display: flex;
+    gap: 10px;
+}
+header{
+    width: 100%;
+    background: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 30px;
+    align-items: flex-end;
+}
+header nav ul{
+    display: flex;
+    gap: 30px;
+    margin-bottom: 40px;
+}
+header nav ul li a{
+color: black;
+font-weight: bold;
+font-size: 20px;
+}
+.bannerSection{
+    width: 100%;
+    padding: 15px;
+    background: #f1f0ef ;
+}
+
+.bannerRow{
+    background: white;
+    width: 100%;
+    display: flex;
+    gap: 20px;
+    padding-right: 20px;
+}
+.bannerRow aside{
+    width: 23%;
+    padding: 5px;
+   
+}
+
+.leftMenu ul li{
+    background-color: #00a8ec;
+    margin-bottom: 5px;
+    padding: 10px 0px;
+    text-align: center;
+   
+}
+.leftMenu ul li a{
+    color: white;
+    font-weight: bold;
+}
+.bannerRowRight{
+    width: 75%;
+  
+}
+.news{
+    border: 2px solid black;
+    margin-top: 10px;
+    border-radius:15px 15px 0px 0px 
+}
+.news h3{
+    background-color: orange;
+    color: white;
+    text-align: center;
+    padding: 20px 0px;
+    border-radius:15px 15px 0px 0px ;
+}
+
+.news ul{
+ padding: 10px;
+}
+
+.news ul li{
+   margin-bottom: 30px;
+   
+}
+.news ul li img{
+   border-radius: 50%;
+   margin-right: 5px;
+}
+.banner{
+    border-bottom: 10px solid lightgray;
+}
+.bannerRowRight h2 {
+    width: 140px;
+    font-weight: bold;
+    background-color: lightgrey;
+    text-align: center;
+    padding: 10px 0px;
+    color: #00a8ec;
+    font-size: 30px;
+}
+
+.courseMain{
+    display: flex;
+    gap: 70px;
+    
+}
+.courseLeft{
+    margin: 30px 0px;
+}
+
+.cItem{
+    display: flex;
+    gap: 20px;
+    padding: 10px 0px;
+}
+.cItem img{
+    width: 40px;
+    height: 40px;
+   
+    border-radius: 50%;
+}
+.php{
+    color: orange;
+}
+.php img{
+    background-color: orange;
+}
+.advPhp{
+color: blueviolet;
+}
+.advPhp img{
+    background:blueviolet;
+}
+.python{
+    color:skyblue ;
+}
+.python img{
+    background: skyblue;
+}
+.anApp{
+    color:yellowgreen;
+}
+.anApp img{
+    background: yellowgreen;
+}
+.digMa{
+    color: blueviolet;
+}
+.digMa img{
+    background: blueviolet;
+}
+
+.courseRight{
+    margin: 30px;
+}
+.graph{
+    color: chocolate;
+}
+.graph img{
+    background: chocolate;
+}
+.seo{
+    color: green ;
+}
+.seo img{
+    background-color: green;
+}
+.wordPre{
+    color: orangered;
+}
+.wordPre img{
+    background: orangered;
+}
+
+.card{
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    
+}
+.cardWork{
+    text-align: center;
+    padding: 20px 0px;
+    font-size: 24px;
+    color: #00a8ec;
+}
+.cardItem {
+    width: 200px;
+    height: 200px;
+} 
+
+.cardItem {
+    width: 200px;
+    height: 200px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: center;  
+    text-align: center;
+}
+.cardItem img {
+    width: 60px;
+    height: 60px;
+}
+.card1{
+    background-color: palevioletred;
+}
+.card2{
+    background-color: pink;
+}
+.card3{
+    background-color: rgb(240, 187, 89);
+}
+.card4{
+    background-color: rgb(236, 236, 112);
+}
+
+footer{
+  
+    background-color: #343130;
+    color: white;
+    display: flex;
+    justify-content:space-between;
+   
+    padding: 30px 80px;
+}
+.list-wrapper{
+    display: flex;
+    gap: 80px;
+}
+.Link ul li {
+    margin-bottom: 20px;
+}
+.contactInfo ul li{
+    line-height: 20px;
+}
+
+.footerCopy{
+    width: 1170px;
+    background-color:#302d2c;
+    color: white;
+    text-align: center;
+    padding: 15px 0px;
+}
+
+footer h3{
+    font-size: 24px;
+    margin-bottom: 30px;
+}
+.Link1 ul a{
+    color: white;
+    cursor: pointer;
+}
+
+/* About section starts here */
+
+
+.about{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 20px;
+   
+}
+.about-content {
+    font-size: 18px;
+    word-spacing: 2px;
+    line-height: 1.6;
+
+}
+.about-content p{
+    margin-bottom: 15px;
+}
+
+/**Courses**/
+.courseRow1{
+    display: flex;
+    justify-content: space-between;
+}
+
+.course1{
+    width: 300px;
+    height: 200px;
+    border: 2px solid red;
+    margin: 20px 30px;
+    border-radius: 12px;
+}
+.icon1{
+    background-color: orange;
+    height: 130px;
+    padding: 10px;
+    border-radius: 12px 12px 0px 0px;
+}
+.iconImg1{
+   width: 110px;
+	height: 110px;
+	border: 10px solid white;
+	border-radius: 50%; 
+	margin: auto;
+	padding-left: 10px;
+	padding-top: 20px;
+  
+
+}
+.course1Text{
+    color: orangered;
+    font-weight: 500;
+    font-size: 22px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.course2{
+    width: 300px;
+    height: 200px;
+    border: 2px solid #00a8ec ;
+    margin: 20px 30px;
+    border-radius: 12px;
+}
+.icon2{
+    background-color: #00a8ec;
+    height: 130px;
+    padding: 10px;
+    border-radius: 12px 12px 0px 0px;
+}
+.iconImg2{
+   width: 110px;
+	height: 110px;
+	border: 10px solid white;
+	border-radius: 50%; 
+	margin: auto;
+	padding-left: 10px;
+	padding-top: 10px;
+  
+
+}
+.course2Text{
+    color: #00a8ec;
+    font-weight: 500;
+    font-size: 22px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.course3{
+    width: 300px;
+    height: 200px;
+    border: 2px solid #00a8ec ;
+    margin: 20px 30px;
+    border-radius: 12px;
+}
+.icon3{
+    background-color: blueviolet;
+    height: 130px;
+    padding: 10px;
+    border-radius: 12px 12px 0px 0px;
+}
+.iconImg3{
+   width: 110px;
+	height: 110px;
+	border: 10px solid white;
+	border-radius: 50%; 
+	margin: auto;
+	padding-left: 14px;
+	padding-top: 20px;
+  
+
+}
+.course3Text{
+    color:blueviolet;
+    font-weight: 500;
+    font-size: 22px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+
+.courseRow2{
+    display: flex;
+    justify-content: space-between;
+}
+.course4{
+    width: 300px;
+    height: 200px;
+    border: 2px solid #00a8ec ;
+    margin: 20px 30px;
+    border-radius: 12px;
+}
+.icon4{
+    background-color: green;
+    height: 130px;
+    padding: 10px;
+    border-radius: 12px 12px 0px 0px;
+}
+.iconImg4{
+   width: 110px;
+	height: 110px;
+	border: 10px solid white;
+	border-radius: 50%; 
+	margin: auto;
+	padding-left: 16px;
+	padding-top: 10px;
+  
+
+}
+.course4Text{
+    color:green;
+    font-weight: 500;
+    font-size: 22px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.course5{
+    width: 300px;
+    height: 200px;
+    border: 2px solid yellowgreen ;
+    margin: 20px 30px;
+    border-radius: 12px;
+}
+.icon5{
+    background-color: yellowgreen;
+    height: 130px;
+    padding: 10px;
+    border-radius: 12px 12px 0px 0px;
+}
+.iconImg5{
+   width: 110px;
+	height: 110px;
+	border: 10px solid white;
+	border-radius: 50%; 
+	margin: auto;
+	padding-left: 14px;
+	padding-top: 10px;
+  
+
+}
+.course5Text{
+    color:yellowgreen;
+    font-weight: 500;
+    font-size: 22px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.course6{
+    width: 300px;
+    height: 200px;
+    border: 2px solid red ;
+    margin: 20px 30px;
+    border-radius: 12px;
+}
+.icon6{
+    background-color: red;
+    height: 130px;
+    padding: 10px;
+    border-radius: 12px 12px 0px 0px;
+}
+.iconImg6{
+   width: 110px;
+	height: 110px;
+	border: 10px solid white;
+	border-radius: 50%; 
+	margin: auto;
+	padding-left: 10px;
+	padding-top: 20px;
+  
+
+}
+.course6Text{
+    color:red;
+    font-weight: 500;
+    font-size: 22px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+
+.courseRow3{
+    display: flex;
+    justify-content: space-between;
+}
+.course7{
+    width: 300px;
+    height: 200px;
+    border: 2px solid blueviolet ;
+    margin: 20px 30px;
+    border-radius: 12px;
+}
+.icon7{
+    background-color: blueviolet;
+    height: 130px;
+    padding: 10px;
+    border-radius: 12px 12px 0px 0px;
+}
+.iconImg7{
+   width: 110px;
+	height: 110px;
+	border: 10px solid white;
+	border-radius: 50%; 
+	margin: auto;
+	padding-left: 20px;
+	padding-top: 10px;
+  
+
+}
+.course7Text{
+    color:blueviolet;
+    font-weight: 500;
+    font-size: 22px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.course8{
+    width: 300px;
+    height: 200px;
+    border: 2px solid orange ;
+    margin: 20px 30px;
+    border-radius: 12px;
+}
+.icon8{
+    background-color: orange;
+    height: 130px;
+    padding: 10px;
+    border-radius: 12px 12px 0px 0px;
+}
+.iconImg8{
+   width: 110px;
+	height: 110px;
+	border: 10px solid white;
+	border-radius: 50%; 
+	margin: auto;
+	padding-left: 6px;
+	padding-top: 8px;
+  
+
+}
+.course8Text{
+    color:orange;
+    font-weight: 500;
+    font-size: 22px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.course9{
+    width: 300px;
+    height: 200px;
+    border: 2px solid green ;
+    margin: 20px 30px;
+    border-radius: 12px;
+}
+.icon9{
+    background-color: green;
+    height: 130px;
+    padding: 10px;
+    border-radius: 12px 12px 0px 0px;
+}
+.iconImg9{
+   width: 110px;
+	height: 110px;
+	border: 10px solid white;
+	border-radius: 50%; 
+	margin: auto;
+	padding-left: 16px;
+	padding-top: 8px;
+  
+
+}
+.course9Text{
+    color:green;
+    font-weight: 500;
+    font-size: 22px;
+    text-align: center;
+    margin-top: 30px;
+}
+/**Gallary **/
+.galRow1{
+    display: flex;
+    gap: 20px;
+    padding: 10px 30px;
+   
+}
+.galImg1{
+    padding: 20px 10px;
+  
+}
+
+
+.title{
+    padding: 20px 30px;
+    background-color: #302d2c;
+    color: white;
+    text-align: center;
+    
+}
+
+
+.contactRow1{
+ display: flex;
+ justify-content: space-between;
+ text-align: center;
+ margin: 30px 60px;
+}
+
+.contactLeft{
+    line-height: 2;
+}
+
+.contactRight{
+    line-height: 2;
+}
+.contactRow2{
+ padding: 60px 10px;
+}
+.contactRow2 h1{
+    margin-bottom: 20px;
+}
