@@ -1,0 +1,72 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: cursive;
+}
+
+.main{
+    width: 100%;
+    background-color:aqua ;
+    padding: 40px;
+   
+}
+.mid{
+    width: 1170px;
+     margin: auto;
+}
+.mid form{
+    border: 0px solid red;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+.formItem{
+    width: 23%;
+}
+.formItem input{
+    width: 100%;
+    padding: 15px;
+}
+
+.formItem button{
+    width: 100%;
+    padding: 15px;
+}
+/**video start **/
+
+.videoSection{
+    width: 100%;
+    text-align: center;
+    margin-top: 40px;
+}
+.videoSection h2{
+    text-transform: uppercase;
+    font-size: 30px;
+    color: blue;
+}
+.videoSection p{
+    margin-top: 20px;
+}
+.midVideo{
+    width: 1170px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+   
+}
+.midVideo figure{
+    width: 48%
+}
+.midVideo figure iframe{
+    width: 100%;
+    height: 350px;
+    margin-top: 60px;
+}
+
+.mapSection{
+    width: 100%;
+    margin-top: 60px;
+}
